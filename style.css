@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(62, 60, 60, 0.954);
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+#recipeContent{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container h1{
+    margin-bottom: 15px;
+}
+
+.container h1 i{
+    font-size: 1.5rem;
+    color: coral;
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid coral;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input::placeholder{
+    font-size: 1rem;
+}
+
+button{
+    padding: 8px 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red, yellow);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, yellow, red);
+}
